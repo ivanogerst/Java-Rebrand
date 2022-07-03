@@ -1,0 +1,126 @@
+html {
+  background-color: #0F0E17;
+}
+
+.grid {
+  font-weight: 650;
+  font-family: 'Inter', sans-serif;
+}
+
+.navText:hover {
+  color: #d8d7d7;
+  -webkit-transition-delay: 0.5s;
+          transition-delay: 0.5s;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  -webkit-text-decoration: underline 2px #ff8906;
+          text-decoration: underline 2px #ff8906;
+  -webkit-transform-origin: right;
+          transform-origin: right;
+}
+
+.navText:active {
+  color: #bdbdbd;
+}
+
+.iconify {
+  width: 52px;
+  height: 52px;
+  color: #fffffe;
+}
+
+.search {
+  border-radius: 6px;
+  background-color: #0F0E17;
+  border-width: 1px;
+  border-color: #fffffe;
+  text-indent: 2px;
+}
+
+.search::-webkit-input-placeholder {
+  color: #fffffe;
+  font-size: 16px;
+  padding-left: 2px;
+}
+
+.search:-ms-input-placeholder {
+  color: #fffffe;
+  font-size: 16px;
+  padding-left: 2px;
+}
+
+.search::-ms-input-placeholder {
+  color: #fffffe;
+  font-size: 16px;
+  padding-left: 2px;
+}
+
+.search::placeholder {
+  color: #fffffe;
+  font-size: 16px;
+  padding-left: 2px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.main .hero {
+  width: 24rem;
+  height: 4.5rem;
+  border-radius: 1px;
+}
+
+.main .txt {
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+.main .hero:hover {
+  background-color: #d17002;
+  -webkit-transition-delay: 0.5s;
+          transition-delay: 0.5s;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.main .txt:hover {
+  color: #d8d7d7;
+  -webkit-transition-delay: 0.5s;
+          transition-delay: 0.5s;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.main .hero:active {
+  background-color: #bb6605;
+}
+
+.main .txt:active {
+  color: #bdbdbd;
+}
+
+.main .vector {
+  min-width: 360px;
+}
+
+.notrel:hover {
+  color: #d8d7d7;
+  -webkit-transition-delay: 0.5s;
+          transition-delay: 0.5s;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.notrel:active {
+  color: #bdbdbd;
+}
+
+.main .text-5xl {
+  font-family: 'Inter', sans-serif;
+}
+
+.quote {
+  color: #A7A9BE;
+}
+/*# sourceMappingURL=styles.css.map */

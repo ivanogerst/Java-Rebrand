@@ -1,0 +1,92 @@
+html{
+    background-color: #0F0E17;
+}
+
+.grid{
+    font-weight: 650;
+    font-family: 'Inter', sans-serif;
+}
+
+.navText:hover{
+    color: rgb(216, 215, 215);
+    transition-delay: 0.5s;
+    transition: all .4s ease;
+    text-decoration: underline 2px #ff8906;
+    transform-origin: right;
+}
+
+.navText:active{
+    color: rgb(189, 189, 189);
+}
+
+.iconify{
+    width: 52px;
+    height: 52px;
+    color: #fffffe;
+}
+
+.search{
+    border-radius: 6px;
+    background-color: #0F0E17;
+    border-width: 1px;
+    border-color: #fffffe;
+    text-indent: 2px;
+}
+
+.search::placeholder{
+    color: #fffffe;
+    font-size: 16px;
+    padding-left: 2px;  
+}
+
+input:focus {
+    outline:none;
+}
+
+.main {
+    .hero{
+        width: 24rem;
+        height: 4.5rem;
+        border-radius: 1px;
+    }
+    .txt{
+    justify-self: center;
+    }
+    .hero:hover{
+    background-color: #d17002;
+    transition-delay: 0.5s;
+    transition: all .2s ease;
+    }
+    .txt:hover{
+        color: rgb(216, 215, 215);
+        transition-delay: 0.5s;
+    transition: all .2s ease;
+    }
+    .hero:active{
+        background-color: #bb6605;
+    }
+    .txt:active{
+        color: rgb(189, 189, 189);
+    }
+    .vector{
+        min-width: 360px;
+    }
+}
+
+.notrel:hover{
+    color: rgb(216, 215, 215);
+    transition-delay: 0.5s;
+    transition: all .2s ease;
+}
+
+.notrel:active{
+    color: rgb(189, 189, 189);
+}
+
+.main .text-5xl{
+    font-family: 'Inter', sans-serif;
+}
+
+.quote{
+    color: #A7A9BE;
+}
